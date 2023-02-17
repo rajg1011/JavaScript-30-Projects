@@ -1,0 +1,37 @@
+html {
+  background-image: url('image/img1.jpg');
+  background-size: 100vw 100vh;
+  text-align: center;
+  padding: 1rem;
+}
+
+:root {
+  --color: #ef6006;
+  --spacing: 0px;
+  --blur: 0px;
+}
+
+.img {
+  height: 30vh;
+  width: 50vw;
+  padding: var(--spacing);
+  background: var(--color);
+  border-radius: 20px;
+  filter: blur(var(--blur));
+
+}
+
+.control {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.js {
+  color: var(--color);
+  font-size: 3rem;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 2rem;
+}
